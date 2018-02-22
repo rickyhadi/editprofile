@@ -30,4 +30,4 @@ function editprofile(appConfig, renderer, helper){
 	
 	return router;
 }
-module.exports = router;
+module.exports = editprofile;
