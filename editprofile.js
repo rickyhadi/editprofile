@@ -1,4 +1,7 @@
-function editprofile(appConfig, renderer, helper){
+function editprofile(){
+	var appConfig = require('appconfig');
+	var renderer = require('renderer')();
+	var helper = require('helper')();
 	var express = require('express');
 	var router = express.Router();
 
